@@ -1,0 +1,52 @@
+.btn {
+  border: 1px solid rgb(33, 209, 194);
+  border-radius: 30px;
+  color: #02afef;
+  font-weight: 600;
+}
+
+.home__img {
+  max-height: 150px;
+  min-height: 150px;
+  object-fit: contain;
+}
+
+.hometype > .head > a {
+  font-size: 25px;
+}
+.hometype > .head > .ques {
+  font-family: "Montserrat", sans-serif !important;
+  color: black !important;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 800px) {
+  .hometype__components:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+  }
+
+  .btn:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+  }
+}
+
+.req_font {
+  color: #02afef;
+}
+
+.others {
+  color: black !important;
+}
+
+.btn_ {
+  border: 1px solid #00bbff;
+  border-radius: 20px;
+  color: #02afef;
+  font-weight: 600;
+}
+
+.estimate {
+  margin-top: 120px;
+}
