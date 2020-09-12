@@ -10,7 +10,7 @@ const public_url = process.env.PUBLIC_URL;
 function App() {
   return (
     <Fragment>
-      <div className="app">
+      <div className="app col-12">
         <Nav />
         <div className="homeq container-fluid col-xl-8 col-md-10 col-sm-12">
           <div className="homeq__container mx-auto">
@@ -28,6 +28,7 @@ function App() {
         </div>
         <img
           className="back__design"
+          alt=""
           src={public_url + "./Resources/icons/Group 36@2x.png"}
         />
       </div>
