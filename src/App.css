@@ -33,6 +33,6 @@ body {
 
 .homeq__container {
   background-color: white;
-  border-top: 5px solid #02afef;
+  /* border-top: 5px solid #02afef; */
   border-radius: 10px;
 }

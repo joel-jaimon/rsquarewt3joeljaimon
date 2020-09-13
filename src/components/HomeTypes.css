@@ -6,8 +6,7 @@
 }
 
 .home__img {
-  max-height: 150px;
-  min-height: 150px;
+  height: 150px;
   object-fit: contain;
 }
 
@@ -34,6 +33,7 @@
 
 .req_font {
   color: #02afef;
+  min-width: 200px;
 }
 
 .others {
@@ -42,11 +42,27 @@
 
 .btn_ {
   border: 1px solid #00bbff;
-  border-radius: 20px;
+  border-radius: 15px;
+  height: 50px;
   color: #02afef;
   font-weight: 600;
 }
 
 .estimate {
   margin-top: 120px;
+}
+
+.progress-bar {
+  height: 6px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #00bbff;
+}
+
+.progress {
+  height: 5px;
+}
+
+.hometype {
+  min-height: 75vh;
 }

@@ -73,17 +73,17 @@ function EstimatedCost() {
   };
 
   return (
-    <div className="hometype mx-auto col-xl-12 col-md-12 col-sm-11">
-      <div className="head mt-3 mb-5">
+    <div className="hometype mx-auto row col-xl-12 col-md-12 col-sm-11">
+      <div className="head col-12  mt-3 mb-5">
         <a className="ques mx-auto m-3 col-12">
           What is your estimated <strong>Home</strong> ?
         </a>
       </div>
-      <div className="row estimate  col-10 mx-auto">
-        <h3 className="req_font mx-auto">{amount}</h3>
+      <div className="row estimate col-10 mx-auto">
+        <h3 className="req_font mx-auto w-100">{amount}</h3>
 
         <PrettoSlider
-          className="col-12 mb-5"
+          className="col-12 mt-3 mb-5"
           defaultValue={50}
           valueLabelFormat={valueLabelFormat}
           getAriaValueText={valuetext}
